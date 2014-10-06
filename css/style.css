@@ -1,57 +1,56 @@
 #box1 {
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
-	height: 200px;
-	width: 200px;
+	height: 120px;
+	width: 120px;
 }
 #box2 {
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
-	height: 200px;
-	width: 200px;
+	height: 120px;
+	width: 120px;
 }
 #box3 {
 	border-bottom: 1px solid black;
-	height: 200px;
-	width: 200px;
+	height: 120px;
+	width: 120px;
 }
 #box4 {
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
-	height: 200px;
-	width: 200px;
+	height: 120px;
+	width: 120px;
 }
 #box5 {
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
-	height: 200px;
-	width: 200px;
+	height: 120px;
+	width: 120px;
 	
 }
 #box6 {
 	border-bottom: 1px solid black;
-	height: 200px;
-	width: 200px;
+	height: 120px;
+	width: 120px;
 }
 #box7 {
 	border-right: 1px solid black;
-	height: 200px;
-	width: 200px;
+	height: 120px;
+	width: 120px;
 }
 #box8 {
 	border-right: 1px solid black;
-	height: 200px;
-	width: 200px;
+	height: 120px;
+	width: 120px;
 }
 table {
 	margin: 0 auto;
 	margin-top:40px;
-
 }
 
 td {
 	text-align:center;
-	font-size:5em;
+	font-size:3em;
 }
 .resetButtonDiv {
 	text-align: center;
@@ -65,4 +64,29 @@ td {
 .oturn {
 	background-color:#FFEDF0;
 }
+.header {
+	text-align: center;
+	font-size: 4em;
+	color:black;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+body {
+   position: relative;
+}
+body:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("http://lorempixel.com/400/200/abstract/"); 
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+    background-size: 100%;
+}
+
+
 

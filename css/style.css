@@ -63,8 +63,9 @@ td {
 .header {
 	text-align: center;
 	font-size: 4em;
-	color:black;
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	color:#2d6ca2;
+  font-family: 'Pacifico', cursive;
+	/*font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;*/
 }
 body {
   position: relative;
@@ -82,6 +83,8 @@ body:after {
   z-index: -1;
   background-size: cover;
 }
+
+
 
 
 
